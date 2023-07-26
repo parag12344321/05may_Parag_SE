@@ -9,7 +9,7 @@ int main()
 
     do//do-while loop for place more order if yes or no
     {
-        system("cls");//clear screen for more order
+        system("cls");//clear screen 
         printf("================================\n");//design box
         printf("\t    MENU\n");// food item menu
         printf("================================\n\n");//design box

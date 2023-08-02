@@ -9,7 +9,6 @@ int main()
 
     do//do-while loop for place more order if yes or no
     {
-        system("cls");//clear screen 
         printf("================================\n");//design box
         printf("\t    MENU\n");// food item menu
         printf("================================\n\n");//design box
@@ -45,8 +44,7 @@ int main()
     totalamt = amt + totalamt;//total amount for all order formula
     printf("\nTotal Amount is : %.2f",totalamt);//total amount for all order
     printf("\nDo you want place one more orders ? y & n : ");//place more food item order?
-    placeMore = getche();//single character function without wait enter key(it means yes[y] or no[n].)
-
+    scanf("%s",&placeMore);
     }while(placeMore == 'y' || placeMore == 'Y');//loop for if user enter yes than again show the food items menu and place more food item order otherwise enter 'n' means stop and generate final bill.
     printf("\n================================\n");//design box
     printf("\nYour Final Bill Amount = %.2f",totalamt);//if user can't get any ordr so generate final bill.
@@ -54,51 +52,3 @@ int main()
     return 0;
     
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-#include<stdio.h>
-//define structure
-struct Food // Product infomation
-{
-    int prodId;//product id
-    char prodNm;//product name
-    int rate;//product rate
-    int qty;//purchase product qty
-}f[5];//define object for five category food product
-int main()
-{
-    int i;
-    for(i = 0; i < 2; i++)
-    {
-    printf("\nEnter Food Item Id : ");
-    scanf("%d", &f[i].prodId);
-    printf("\nEnter Food Item Name : ");
-    scanf("%s", &f[i].prodNm);
-    printf("\nEnter Food Item Rate : ");
-    scanf("%d", &f[i].rate);
-    printf("\nEnter Food Item Quantity : ");
-    scanf("%d", &f[i].qty);
-    }
-    printf("\n--------------------Product Details------------------\n");
-    printf("\nFood Item ID\tFood Item Name\tFood Item Rate\tFodd item Qty");
-    for(i = 0; i < 2; i++)
-    {
-        printf("%d\t%s\t%d\t%d",f[i].prodId,f[i].prodNm,f[i].rate,f[i].qty);
-        printf("\n");
-    }
-   // printf("\n-------------------------------------------------------");
-    return 0;
-} */

@@ -11,6 +11,7 @@ public:
     int NoOflecture;//Numbers of lecture
 
     Lecture()//define constructor
+            //Data input
     {
         cout << "Enter the Lecturer Name: ";
         cin >> lecturerNm;
@@ -23,6 +24,7 @@ public:
     }
     // Show the data
     void display()
+    //Data print
     {
         cout<< " The Lecturer Name is: " << lecturerNm<<endl;
         cout<< " \tThe Subject Name is: " << subjectNm<<endl;

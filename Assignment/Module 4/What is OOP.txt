@@ -1,0 +1,61 @@
+Ans --> OOP is Object-Oriented Programming.
+    -->	List OOP concepts:
+	1.Class:-
+	- Class is collection of the data member and member function
+                            OR
+	- Class is a blue print of the Object
+	- All functions defined within the body of a class are called member functions.
+	- The classes defined in the udf are called data functions.
+	- A class will never occupy space.
+	
+	2. Object:-
+	- Instance of the class.
+	- Objects occupy space. A class can have multiple objects.
+	- The value will always be with the object so the space will also be occupied by the object itself.
+
+	3. Abstraction:-
+	- Abstraction means abstracting data.
+	- It means hiding internal details from user, only showing necessary information to them so that they use it. 
+	- It means your private data is in work, you can excise it but it will not show.
+
+	4. Encapsulation:-
+	- Wrapping up the data	.
+	- Wrapping everything in one place is much easier than having different i.e. functions, variables, or data members.
+
+	5. Inheritance:-
+	- Inheritance is reusability of the code
+	- Inheritance allows use to create new class from existing ones, which inherit all.
+	  Types of level:
+	(1) Single Level:
+		There will be only one parent class and only one child class. In programming language, 
+	  parent is considered as a base class and child is considered as a derived class.
+
+	(2) Multiple Inheritence :
+		There will be multiple parents and a single child. That is, all the properties will be given to one child.
+	  Here the child class is the one so the derived class will be the one.
+
+	(3) Multi Level Inheritance :
+		At this level, the grant parent's class[A] property will be passed to the parent's class[B] and 
+	  the parent's class property will be passed to the child class[C].
+
+	(4) Hybried Inheritance :
+		Class A will get the properties class B and class C and class D will get the properties of class B and class C,
+	  so the derived class will be class D.
+
+	(5) Hirachical Inheritance :
+		Single parent's and multiple child. it means class A will get the properties class B, C & D also. so the 3 derived
+	  class B, C and D.
+
+	6. Polymorphism:-
+	- One name many form
+	(A) Overloading :
+		1. Function Overloading :
+			Same name of the function, same class but different parameter.
+		2. Operator Overloading :
+			using operator keyword same as above
+	(B) Overriding : 
+		1. Function Overriding :
+			Same name of the function, same parameter but different class
+		
+
+	
